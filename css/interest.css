@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+    font-family:Verdana, Tahoma, Sans-serif;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align:center;
+    font-family:Rockwell, 'Bookman Old Style', serif;
+    font-size:3em;
+    background-color:rgb(109, 193, 221);
+    color:rgb(0, 0, 0);
+    text-transform:uppercase;
+    word-spacing:30px;
+    text-shadow: 5px 5px 6px rgb(67, 67, 255);
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify;
+    font-size:18px;
+    text-indent:70px;
+    line-height:30px;
+    word-spacing:8px;
+}
+img{
+  width: 25%;
+  height: 25%;
+    border-radius: 5px;
+
+}
+
+img:hover{
+  transform: scale(2,2);
+  transition: .3s transform;
+}
+.container {
+    font-family: 'Rochester', cursive;
+    font-size: 2em;
+}

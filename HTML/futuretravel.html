@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FUTURE TRAVELS</title>
+  <script language="JavaScript">
+   function writeText(txt){
+       document.getElementById ("desc").innerHTML=txt;
+ }
+   function dissolveText(txt){
+       document.getElementById ("desc").innerHTML=txt;
+   }
+ </script>
+ <title>FUTURE TRAVELS</title>
+ <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="../css/futuretravel.css"> 
+ 
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="../index.html">HOME</a></li>
+
+
+    </ul>
+    </nav>
+    <hr width="100%" size ="4" color="black" align="center" NOSHADE>
+
+  
+    <div align="center">
+      <img src="../images/travel.png" usemap="#travel">
+       <map name="travel">
+       <area shape="circle" coords="363,479,416" href="lofoten.html" target="_blank" onmouseover="writeText('Lofoten Islands, Norway');" onmouseout="dissolveText('')"/>
+       <area shape="circle" coords="1634,471,440" href="havasu.html" target="_blank" onmouseover="writeText('Havasu Falls, Arizona');" onmouseout="dissolveText('')"/>
+       <area shape="rect" coords="167,999,541,1377" href="elyunque.html" target="_blank" onmouseover="writeText('El Yunque National Forest, Puerto Rico');" onmouseout="dissolveText('')"/>
+       <area shape="rect" coords="1421,973,1840,1392" href="krabi.html" target="_blank" onmouseover="writeText('Krabi, Thailand');" onmouseout="dissolveText('')"/>
+       </map>
+   </div>
+ 
+  <p id="desc"></p>
+</body>
+</html>

@@ -1,0 +1,220 @@
+
+  
+  html
+  {
+      font-size:100%;
+  }
+  
+  body
+  {
+      
+      background-color: lightblue;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:15px;
+      font-weight:400;
+      line-height:1.4;  
+  }
+  .me-img
+{
+	background:url('../images/grad.jpg');
+	background-size:100%;
+    background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+  
+  .skill-set li:hover
+  {
+      background:#3498db;
+  }
+  
+  h1.a
+  {
+      line-height: 0;
+      background: rgb(109, 193, 221);
+      padding: 25px;
+  }
+
+  h1.b
+  {
+      line-height: 0;
+      background: rgb(109, 193, 221);
+      padding: 25px;
+  }
+
+  h1.c
+  {
+      line-height: 0;
+      background: rgb(109, 193, 221);
+      padding: 25px;
+  }
+
+  h1.d
+  {
+      line-height: 0;
+      background: rgb(109, 193, 221);
+      padding: 25px;
+  }
+
+  h1.e
+  {
+      line-height: 0;
+      background: rgb(109, 193, 221);
+      padding: 25px;
+  }
+
+  
+  .wrapper
+  {
+      height:100%;
+  }
+  
+  .left
+  {
+      background-color:rgba(89, 0, 255, 0.025);
+      border-right:1px solid rgba(0,0,0,.05);
+      float:right;
+      height:100%;
+      margin-left:-1px;
+      position:fixed;
+      width:33.33%;
+    
+  }
+  
+  .right
+  {
+      background: url('');
+      float:right;
+      height:100%;
+      position:relative;
+      width:66.66%;
+  }
+  
+  
+  .name-hero
+  {
+      background:rgba(0,0,0,.001);
+      bottom:0;
+      height:290px;
+      left:0;
+      margin:auto;
+      position:absolute;
+      right:0;
+      top:0;
+      width:85%;
+  }
+  
+  .name-hero h1
+  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:1.5em;
+      text-align:justify;
+  }
+  
+  .name-hero h1 em
+  {
+    
+      color:rgba(0,0,0,.3);
+      font-style:normal;
+      font-weight:700;
+  }
+  
+  .name-hero p
+  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color:rgba(0,0,0,.75);
+      font-size:.75em;
+      line-height:1.5;
+      margin:0 8px 0 0;
+      text-align:center;
+  }
+  
+  .name-hero .name-text
+  {
+      margin:0 auto;
+      width:85%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight:bold;
+      font-size: 20px;
+  }
+  
+  .inner
+  {
+      margin:0 auto;
+      max-width:975px;
+      padding:3em;
+  }
+  
+  .inner h1
+  {
+      font-size:1.75em;
+  }
+  
+  .inner p
+  {
+      color:rgba(0,0,0,.5);
+  }
+  
+  .inner p em
+  {
+      color:rgba(0,0,0,1);
+      font-style:normal;
+  }
+  
+  .inner section
+  {
+      margin:100px auto;
+  }
+  
+  ul
+  {
+      margin-top:-10px;
+      max-width:570px;
+      padding:0;
+  }
+
+  .seminar ol{
+      list-style-type: "1";
+  }
+
+  .seminar em{
+        color: black;
+        font-style:normal;
+        font-weight:700;
+  }
+
+  .seminar li{
+    color:rgb(90, 81, 65);
+  }
+
+.educational ul{
+    list-style-type: circle;
+}
+
+.educational em{
+      color: black;
+      font-style:normal;
+      font-weight:700;
+}
+
+.educational li{
+  color:rgb(90, 81, 65);
+}
+
+
+  
+  .skill-set li
+  {
+
+      background: rgb(30, 122, 153);
+      border-radius:5px;
+      color:#FFF;
+      display:inline-block;
+      list-style:none;
+      margin:15px 15px 0 0;
+      padding:10px;
+      text-align:justify;
+  }
